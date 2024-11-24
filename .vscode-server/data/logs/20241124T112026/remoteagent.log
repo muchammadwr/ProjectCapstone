@@ -1,0 +1,62 @@
+2024-11-24 11:20:26.226 [info] 
+
+
+
+
+2024-11-24 11:20:26.239 [info] Extension host agent started.
+2024-11-24 11:20:26.296 [info] Started initializing default profile extensions in extensions installation folder. file:///home/retinamata/.vscode-server/extensions
+2024-11-24 11:20:26.308 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/retinamata/.vscode-server/extensions
+2024-11-24 11:20:26.339 [info] [<unknown>][8176a788][ManagementConnection] New connection established.
+2024-11-24 11:20:26.341 [info] [<unknown>][bee1d22e][ExtensionHostConnection] New connection established.
+2024-11-24 11:20:26.417 [info] [<unknown>][bee1d22e][ExtensionHostConnection] <1016> Launched Extension Host Process.
+2024-11-24 11:20:53.702 [info] [<unknown>][27b1f892][ExtensionHostConnection] New connection established.
+2024-11-24 11:20:53.703 [info] [<unknown>][1dee69d1][ManagementConnection] New connection established.
+2024-11-24 11:20:53.707 [info] [<unknown>][27b1f892][ExtensionHostConnection] <1119> Launched Extension Host Process.
+2024-11-24 11:21:00.728 [info] [<unknown>][1dee69d1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-24 11:21:00.798 [info] [<unknown>][27b1f892][ExtensionHostConnection] <1119> Extension Host Process exited with code: 0, signal: null.
+2024-11-24 11:21:00.798 [info] Cancelling previous shutdown timeout
+2024-11-24 11:21:12.326 [info] [<unknown>][28f45555][ManagementConnection] New connection established.
+2024-11-24 11:21:12.468 [info] [<unknown>][d79c71c9][ExtensionHostConnection] New connection established.
+2024-11-24 11:21:12.471 [info] [<unknown>][d79c71c9][ExtensionHostConnection] <1282> Launched Extension Host Process.
+2024-11-24 11:21:15.817 [error] CodeExpectedError: Could not find pty 11 on pty host
+    at I.W (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-24 11:21:15.819 [error] CodeExpectedError: Could not find pty 11 on pty host
+    at I.W (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateIcon (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7772)
+    at N.s.<computed> (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-24 11:21:46.512 [info] [<unknown>][8176a788][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-24 11:21:46.541 [info] [<unknown>][bee1d22e][ExtensionHostConnection] <1016> Extension Host Process exited with code: 0, signal: null.
+2024-11-24 12:13:46.964 [error] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+2024-11-24 12:13:46.967 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2024-11-24 12:13:46.968 [error] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+2024-11-24 12:13:47.027 [error] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)

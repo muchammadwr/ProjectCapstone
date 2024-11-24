@@ -1,0 +1,75 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/retinamata/.cache/typescript/5.6/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:/home/retinamata/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 16ms
+17 timing npm:load:configload Completed in 16ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install types-registry@latest
+21 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 4ms
+24 timing npm:load:display Completed in 5ms
+25 verbose logfile logs-max:10 dir:/home/retinamata/.npm/_logs/2024-11-24T11_28_19_864Z-
+26 verbose logfile /home/retinamata/.npm/_logs/2024-11-24T11_28_19_864Z-debug-0.log
+27 timing npm:load:logFile Completed in 8ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 32ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 0ms
+33 timing arborist:ctor Completed in 1ms
+34 timing arborist:ctor Completed in 1ms
+35 timing idealTree:init Completed in 20ms
+36 http fetch GET 200 https://registry.npmjs.org/types-registry 182ms (cache miss)
+37 timing idealTree:userRequests Completed in 198ms
+38 silly idealTree buildDeps
+39 silly fetch manifest types-registry@0.1.696
+40 silly placeDep ROOT types-registry@0.1.696 OK for:  want: 0.1.696
+41 timing idealTree:#root Completed in 12ms
+42 timing idealTree:node_modules/types-registry Completed in 0ms
+43 timing idealTree:buildDeps Completed in 13ms
+44 timing idealTree:fixDepFlags Completed in 0ms
+45 timing idealTree Completed in 235ms
+46 timing reify:loadTrees Completed in 236ms
+47 timing reify:diffTrees Completed in 1ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 2ms
+50 timing reify:createSparse Completed in 1ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request { 'types-registry': [ '0.1.696' ] }
+53 silly tarball no local data for types-registry@https://registry.npmjs.org/types-registry/-/types-registry-0.1.696.tgz. Extracting by manifest.
+54 http fetch GET 200 https://registry.npmjs.org/types-registry/-/types-registry-0.1.696.tgz 143ms (cache miss)
+55 timing reifyNode:node_modules/types-registry Completed in 153ms
+56 timing reify:unpack Completed in 153ms
+57 timing reify:unretire Completed in 0ms
+58 timing build:queue Completed in 1ms
+59 timing build:deps Completed in 1ms
+60 timing build Completed in 1ms
+61 timing reify:build Completed in 1ms
+62 timing reify:trash Completed in 0ms
+63 timing reify:save Completed in 7ms
+64 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 203ms
+65 timing auditReport:getReport Completed in 207ms
+66 silly audit report {}
+67 timing auditReport:init Completed in 0ms
+68 timing reify:audit Completed in 208ms
+69 timing reify Completed in 453ms
+70 silly ADD node_modules/types-registry
+71 timing command:install Completed in 461ms
+72 verbose exit 0
+73 timing npm Completed in 526ms
+74 info ok

@@ -1,0 +1,20 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-51b680f7-4b74-4478-8b26-f10c93fc6aee
+Extension host agent listening on /tmp/code-51b680f7-4b74-4478-8b26-f10c93fc6aee
+
+[13:03:59] 
+
+
+
+
+[13:03:59] Extension host agent started.
+[13:03:59] [<unknown>][28f45555][ManagementConnection] Unknown reconnection token (never seen).
+[13:04:22] [<unknown>][bae593a6][ExtensionHostConnection] New connection established.
+[13:04:22] [<unknown>][3d725130][ManagementConnection] New connection established.
+[13:04:22] [<unknown>][bae593a6][ExtensionHostConnection] <990> Launched Extension Host Process.

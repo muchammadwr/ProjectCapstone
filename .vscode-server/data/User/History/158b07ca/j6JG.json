@@ -1,0 +1,19 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "vscode-icons",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "remote.SSH.remotePlatform": {
+        "gcp": "linux"
+    }
+}

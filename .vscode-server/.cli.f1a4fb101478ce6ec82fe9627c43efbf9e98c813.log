@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:43423
+[2024-11-24 13:12:34] info Disposed of connection to running server.
+looking for token 1b38d3d5-0698-4ec9-8706-c4fffba7076b, got Some("1b38d3d5-0698-4ec9-8706-c4fffba7076b")
+[2024-11-24 13:12:34] info Checking /home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/log.txt and /home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/pid.txt for a running server...
+[2024-11-24 13:12:34] info Found running server (pid=907)

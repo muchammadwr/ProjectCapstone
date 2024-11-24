@@ -1,0 +1,139 @@
+2024-11-24 13:12:36.658 [info] [main] Log level: Info
+2024-11-24 13:12:36.658 [info] [main] Validating found git in: "git"
+2024-11-24 13:12:36.658 [info] [main] Using git "2.39.5" from "git"
+2024-11-24 13:12:36.658 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-24 13:12:36.659 [info] > git rev-parse --show-toplevel [50ms]
+2024-11-24 13:12:36.659 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:12:36.659 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-24 13:12:36.659 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:12:36.661 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-24 13:12:36.661 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:12:36.666 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 13:12:36.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:12:36.671 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 13:12:36.672 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:12:36.677 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 13:12:36.677 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:12:36.692 [info] > git rev-parse --show-toplevel [11ms]
+2024-11-24 13:12:36.693 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:12:36.698 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-24 13:13:39.648 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 13:13:39.648 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:13:44.101 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 13:13:44.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:13:47.995 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 13:13:47.995 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:20:34.501 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-24 13:20:34.501 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:21:02.242 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-24 13:21:02.242 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 13:22:00.722 [info] > git rev-parse --show-toplevel [14ms]
+2024-11-24 13:22:00.722 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-24 14:10:49.835 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-24 14:10:49.841 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-11-24 14:10:49.853 [info] [Model][openRepository] Opened repository: /home/retinamata
+2024-11-24 14:10:49.867 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-24 14:10:49.868 [info] > git config --get commit.template [9ms]
+2024-11-24 14:10:49.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-24 14:10:49.869 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:10:49.882 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:10:49.913 [info] > git status -z -uall [40ms]
+2024-11-24 14:10:50.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [416ms]
+2024-11-24 14:10:50.416 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:10:50.417 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-11-24 14:10:50.443 [info] > git config --get commit.template [54ms]
+2024-11-24 14:10:50.454 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-24 14:10:50.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2024-11-24 14:10:50.469 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:10:50.546 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [46ms]
+2024-11-24 14:10:50.553 [info] > git status -z -uall [79ms]
+2024-11-24 14:10:51.001 [info] > git show --textconv :hapi/index.js [12ms]
+2024-11-24 14:10:51.002 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-24 14:10:51.007 [info] > git ls-files --stage -- /home/retinamata/hapi/index.js [14ms]
+2024-11-24 14:10:53.787 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-24 14:10:53.788 [info] > git config --get commit.template [5ms]
+2024-11-24 14:10:53.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-24 14:10:53.789 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:10:53.801 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 14:10:53.825 [info] > git status -z -uall [31ms]
+2024-11-24 14:11:00.331 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-24 14:11:00.332 [info] > git config --get commit.template [6ms]
+2024-11-24 14:11:00.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-24 14:11:00.333 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:11:00.345 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:11:00.373 [info] > git status -z -uall [37ms]
+2024-11-24 14:11:05.428 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-24 14:11:05.430 [info] > git config --get commit.template [5ms]
+2024-11-24 14:11:05.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-24 14:11:05.430 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:11:05.442 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:11:05.464 [info] > git status -z -uall [31ms]
+2024-11-24 14:11:08.501 [info] > git ls-files --stage -- /home/retinamata/hapi/index.js [2ms]
+2024-11-24 14:11:08.567 [info] > git show --textconv :hapi/index.js [2ms]
+2024-11-24 14:11:10.499 [info] > git config --get commit.template [5ms]
+2024-11-24 14:11:10.500 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-24 14:11:10.500 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:11:10.512 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 14:11:10.533 [info] > git status -z -uall [30ms]
+2024-11-24 14:13:24.015 [info] > git config --get commit.template [6ms]
+2024-11-24 14:13:24.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-24 14:13:24.015 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:13:24.029 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:13:24.059 [info] > git status -z -uall [40ms]
+2024-11-24 14:13:29.791 [info] > git config --get commit.template [5ms]
+2024-11-24 14:13:29.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-24 14:13:29.792 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:13:29.805 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-24 14:13:29.825 [info] > git status -z -uall [30ms]
+2024-11-24 14:13:35.498 [info] > git config --get commit.template [5ms]
+2024-11-24 14:13:35.498 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-24 14:13:35.498 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:13:35.510 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:13:35.531 [info] > git status -z -uall [29ms]
+2024-11-24 14:13:40.572 [info] > git config --get commit.template [5ms]
+2024-11-24 14:13:40.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-24 14:13:40.573 [warning] [Git][getBranch] No such branch: master
+2024-11-24 14:13:40.586 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:13:40.606 [info] > git status -z -uall [29ms]
+2024-11-24 14:13:42.837 [info] > git config --get commit.template [5ms]
+2024-11-24 14:13:42.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [2ms]
+2024-11-24 14:13:42.839 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:13:42.850 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:13:42.872 [info] > git status -z -uall [30ms]
+2024-11-24 14:13:42.905 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [2ms]
+2024-11-24 14:13:42.905 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:13:42.906 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for cc-progress: Error: No such branch: cc-progress.
+2024-11-24 14:13:44.014 [info] > git ls-files --stage -- /home/retinamata/hapi/index.js [2ms]
+2024-11-24 14:13:44.089 [info] > git show --textconv :hapi/index.js [2ms]
+2024-11-24 14:13:45.643 [info] > git config --get commit.template [6ms]
+2024-11-24 14:13:45.644 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [2ms]
+2024-11-24 14:13:45.644 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:13:45.656 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:13:45.678 [info] > git status -z -uall [31ms]
+2024-11-24 14:13:54.049 [info] > git config --get commit.template [5ms]
+2024-11-24 14:13:54.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [2ms]
+2024-11-24 14:13:54.050 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:13:54.061 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 14:13:54.084 [info] > git status -z -uall [31ms]
+2024-11-24 14:13:59.130 [info] > git config --get commit.template [5ms]
+2024-11-24 14:13:59.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [2ms]
+2024-11-24 14:13:59.131 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:13:59.143 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-24 14:13:59.164 [info] > git status -z -uall [29ms]
+2024-11-24 14:14:01.241 [info] > git config --get commit.template [2ms]
+2024-11-24 14:14:01.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [2ms]
+2024-11-24 14:14:01.247 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:14:01.260 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:14:01.280 [info] > git status -z -uall [29ms]
+2024-11-24 14:14:02.923 [info] > git ls-files --stage -- /home/retinamata/hapi/index.js [2ms]
+2024-11-24 14:14:02.967 [info] > git show --textconv :hapi/index.js [2ms]
+2024-11-24 14:14:04.727 [info] > git config --get commit.template [7ms]
+2024-11-24 14:14:04.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [3ms]
+2024-11-24 14:14:04.728 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:14:04.740 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-24 14:14:04.761 [info] > git status -z -uall [30ms]
+2024-11-24 14:14:09.798 [info] > git config --get commit.template [8ms]
+2024-11-24 14:14:09.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/cc-progress refs/remotes/cc-progress [4ms]
+2024-11-24 14:14:09.801 [warning] [Git][getBranch] No such branch: cc-progress
+2024-11-24 14:14:09.823 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-24 14:14:09.841 [info] > git status -z -uall [36ms]

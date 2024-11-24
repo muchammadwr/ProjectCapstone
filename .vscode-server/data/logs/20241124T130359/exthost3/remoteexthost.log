@@ -1,0 +1,292 @@
+2024-11-24 13:12:35.618 [info] Extension host with pid 1399 started
+2024-11-24 13:12:35.618 [error] Error: EEXIST: file already exists, open '/home/retinamata/.vscode-server/data/User/workspaceStorage/1e125945a2fe2d36b3d74f7bdbc1c1d8/vscode.lock'
+2024-11-24 13:12:35.627 [info] Lock '/home/retinamata/.vscode-server/data/User/workspaceStorage/1e125945a2fe2d36b3d74f7bdbc1c1d8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-24 13:12:35.674 [info] Lock '/home/retinamata/.vscode-server/data/User/workspaceStorage/1e125945a2fe2d36b3d74f7bdbc1c1d8/vscode.lock': The lock does not look stale, elapsed: 163 ms, giving up.
+2024-11-24 13:12:35.683 [info] Lock '/home/retinamata/.vscode-server/data/User/workspaceStorage/1e125945a2fe2d36b3d74f7bdbc1c1d8-1/vscode.lock': Lock acquired.
+2024-11-24 13:12:35.880 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-24 13:12:35.882 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-11-24 13:12:36.189 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-11-24 13:12:36.190 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-11-24 13:12:36.430 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-11-24 13:12:36.590 [info] Eager extensions activated
+2024-11-24 13:12:36.590 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-24 13:12:36.591 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-24 13:17:52.686 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-11-24 13:17:58.145 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-24 13:17:58.146 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-24 13:17:58.146 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-11-24 13:20:31.586 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-11-24 13:22:00.596 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-11-24 14:10:49.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:10:50.578 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.006 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.007 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.007 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.007 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.007 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.007 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.007 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:51.007 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.008 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.012 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.012 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.013 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.013 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.014 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.014 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.015 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.016 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.017 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.017 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.018 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.018 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.019 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.019 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.020 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.020 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.020 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.021 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.021 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.021 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.022 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.022 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.023 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.023 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.023 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.024 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.024 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.025 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.025 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.025 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:52.026 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/main.js:2:1044348)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-11-24 14:10:53.844 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:11:00.401 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:11:05.484 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:11:10.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:24.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:29.854 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:35.553 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:40.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:42.896 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:45.695 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:54.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:13:59.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:14:01.307 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:14:04.781 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
+2024-11-24 14:14:09.864 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2106
