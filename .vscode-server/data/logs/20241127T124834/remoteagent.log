@@ -1,0 +1,26 @@
+2024-11-27 12:48:34.788 [info] 
+
+
+
+
+2024-11-27 12:48:34.803 [info] Extension host agent started.
+2024-11-27 12:48:35.275 [info] [<unknown>][b6346fc1][ManagementConnection] New connection established.
+2024-11-27 12:48:35.336 [info] [<unknown>][6330dcaa][ExtensionHostConnection] New connection established.
+2024-11-27 12:48:35.411 [info] [<unknown>][6330dcaa][ExtensionHostConnection] <1416> Launched Extension Host Process.
+2024-11-27 12:49:05.549 [info] [<unknown>][b6346fc1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-27 12:49:05.578 [info] [<unknown>][6330dcaa][ExtensionHostConnection] <1416> Extension Host Process exited with code: 0, signal: null.
+2024-11-27 12:49:05.579 [info] Cancelling previous shutdown timeout
+2024-11-27 12:49:05.579 [info] Last EH closed, waiting before shutting down
+2024-11-27 12:49:09.075 [info] [<unknown>][24543395][ExtensionHostConnection] New connection established.
+2024-11-27 12:49:09.079 [info] [<unknown>][24543395][ExtensionHostConnection] <1547> Launched Extension Host Process.
+2024-11-27 12:49:09.114 [info] [<unknown>][f1bd0803][ManagementConnection] New connection established.
+2024-11-27 12:54:05.581 [info] New EH opened, aborting shutdown
+2024-11-27 12:54:05.584 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/retinamata/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2024-11-27 13:10:04.762 [info] [<unknown>][f1bd0803][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-27 13:10:04.855 [info] [<unknown>][24543395][ExtensionHostConnection] <1547> Extension Host Process exited with code: 0, signal: null.
+2024-11-27 13:10:04.856 [info] Last EH closed, waiting before shutting down
+2024-11-27 13:10:38.823 [info] [<unknown>][d6f15226][ExtensionHostConnection] New connection established.
+2024-11-27 13:10:38.824 [info] [<unknown>][2f19f76e][ManagementConnection] New connection established.
+2024-11-27 13:10:38.830 [info] [<unknown>][d6f15226][ExtensionHostConnection] <2815> Launched Extension Host Process.

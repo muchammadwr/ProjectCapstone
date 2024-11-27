@@ -24,3 +24,9 @@
 2024-11-24 13:12:34.281 [info] [<unknown>][093e3fec][ManagementConnection] New connection established.
 2024-11-24 13:17:05.417 [info] [<unknown>][3d725130][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
 2024-11-24 13:17:05.436 [info] [<unknown>][bae593a6][ExtensionHostConnection] <990> Extension Host Process exited with code: 0, signal: null.
+2024-11-24 14:21:57.733 [error] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+2024-11-24 14:21:57.763 [error] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)

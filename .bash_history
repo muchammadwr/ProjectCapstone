@@ -81,3 +81,81 @@ code
 code .
 sudo vim /etc/nginx/webfig/
 sudo vim /etc/nginx/nginx.conf
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get purge -y docker-engine docker docker.io containerd runc
+sudo apt-get autoremove -y
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+sudo rm -rf /etc/docker
+sudo rm -rf /etc/apt/keyrings/docker.asc
+sudo rm /etc/apt/sources.list.d/docker.list
+docker --version
+sudo apt-get clean
+sudo apt-get update
+sudo rm /usr/local/bin/docker-compose
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker ps
+sudo docker run -d --name mysql
+sudo docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=retinova -p 3307:3306 mysql:8.0
+sudo docker ps
+git init
+git remote add origin https://github.com/muchammadwr/ProjectCapstone.git
+git checkout -b cc-progress
+git branch -M cc-progress
+git add .
+git commit -m "set up hapi js, api, docker"
+git config --global user.email "nurul.cholil2373@gmail.com"
+git config --global user.name "NurlChl"
+git commit -m "set up hapi js, api, docker"
+git push -u origin cc-progress
+git branch -M cc-progress
+git push -u origin cc-progress
+git pull origin cc-progress
+git push origin cc-progress
+clear
+git pull origin cc-progress
+git pull origin cc-progress --no-rebase
+git config pull.rebase false
+git pull origin cc-progress
+git pull origin cc-progress --allow-unrelated-histories
+git push origin cc-progress
+ss -tlupn
+clear
+sudo rm /etc/nginx/sites-enables/default
+sudo rm /etc/nginx/sites-enabled/default
+sudo certbot --nginx -d api.lifistudio.my.id
+node index.js
+ls /home/retinamata/
+cd hapi
+node inedx.jd
+node inedx.js
+clear
+node inedx.js
+clear
+node index.js
+npm i mysql
+node index.js
+cd home
+ls
+pwd
+ls
+ls home/retinamata

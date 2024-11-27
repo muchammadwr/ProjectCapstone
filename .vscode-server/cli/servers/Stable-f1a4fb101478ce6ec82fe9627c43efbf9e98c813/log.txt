@@ -5,16 +5,24 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to /tmp/code-51b680f7-4b74-4478-8b26-f10c93fc6aee
-Extension host agent listening on /tmp/code-51b680f7-4b74-4478-8b26-f10c93fc6aee
+Server bound to /tmp/code-fc41e7c8-eb9d-41e2-8eba-e5dca82ad734
+Extension host agent listening on /tmp/code-fc41e7c8-eb9d-41e2-8eba-e5dca82ad734
 
-[13:03:59] 
-
-
+[12:48:34] 
 
 
-[13:03:59] Extension host agent started.
-[13:03:59] [<unknown>][28f45555][ManagementConnection] Unknown reconnection token (never seen).
-[13:04:22] [<unknown>][bae593a6][ExtensionHostConnection] New connection established.
-[13:04:22] [<unknown>][3d725130][ManagementConnection] New connection established.
-[13:04:22] [<unknown>][bae593a6][ExtensionHostConnection] <990> Launched Extension Host Process.
+
+
+[12:48:34] Extension host agent started.
+[12:48:35] [<unknown>][b6346fc1][ManagementConnection] New connection established.
+[12:48:35] [<unknown>][6330dcaa][ExtensionHostConnection] New connection established.
+[12:48:35] [<unknown>][6330dcaa][ExtensionHostConnection] <1416> Launched Extension Host Process.
+[12:49:05] [<unknown>][b6346fc1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:49:05] [<unknown>][6330dcaa][ExtensionHostConnection] <1416> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[12:49:05] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[12:49:05] Last EH closed, waiting before shutting down
+[12:49:09] [<unknown>][24543395][ExtensionHostConnection] New connection established.
+[12:49:09] [<unknown>][24543395][ExtensionHostConnection] <1547> Launched Extension Host Process.
+[12:49:09] [<unknown>][f1bd0803][ManagementConnection] New connection established.
